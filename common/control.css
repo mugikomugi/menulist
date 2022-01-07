@@ -1,0 +1,180 @@
+@charset "utf-8";
+/*--------------------
+管理画面CSS
+--------------------*/
+.topTitle {
+  background: #FAC4A0;
+  color: #604609;
+}
+.formChange {
+  display: flex;
+  border-bottom: solid 1px #604609;
+}
+.formChange li {
+  width: 210px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 2rem;
+  border-left: solid 1px #604609;
+  border-top: solid 1px #604609;
+  border-right: solid 1px #604609;
+  margin-right: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.formChange .act,.formChange li:hover {
+  background: #FAC4A0;
+}
+.formLow {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+.stockId {
+  width: 60px;
+  text-align: center;
+  margin-right: 30px;
+}
+.formLow label {
+  font-weight: bold;
+}
+.stockId p {
+  margin: 0;
+  font-weight: bold;
+}
+.formInput {
+  line-height: 40px;
+}
+.stock {
+  width: 300px;
+  text-align: center;
+  margin-right: 30px;
+}
+.stock input,.stockCategory select,.materialForm select,.stockplice input {
+  line-height: 37px;
+  padding: 0 10px;
+  font-size: 1.6rem;
+  display: block;
+  width: 100%;
+}
+input[type="file"] {
+  font-size: 1.6rem;
+}
+.stockCategory {
+  width: 180px;
+  text-align: center;
+  margin-right: 30px;
+}
+.stockCategory select,.materialForm select {
+  padding: 10px;
+}
+.materialForm {
+  width: 140px;
+  text-align: center;
+  margin-right: 30px;
+}
+.stockplice {
+  width: 160px;
+  text-align: center;
+}
+.sarchId {
+  line-height: 40px;
+  font-size: 2rem;
+}
+.inputId {
+  width: 90px;
+  line-height: 40px;
+  margin-left: 10px;
+  padding: 0 10px;
+  font-size: 2rem;
+}
+.thumb {
+  width: 80px;
+  padding-right: 10px;
+}
+.thumb12 {
+  width: 120px;
+}
+/*---------- 一覧表 ----------*/
+.stockBox {
+  margin: 60px 0 100px 0;
+  border-top: solid 1px #C4C4C4;
+}
+.totalStock {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.totalStock span {
+  padding-right: 10px;
+}
+.stockBox table {
+  text-align: center;
+  font-size: 1.8rem;
+}
+.stockBox tr:nth-of-type(even) {
+  background: #EAEAEA;
+}
+.stocklistId {
+  width: 60px;
+}
+.stocklist {
+  width: 460px;
+}
+.stockImg {
+  width: 100px;
+  padding:5px 0;
+}
+.stocklisutoCat {
+  width: 140px;
+}
+.stocklistMat {
+  width: 100px;
+}
+.stocklistPlice {
+  width:100px;
+}
+#deleteForm table {
+  border-bottom: solid 1px #EAEAEA;
+}
+#deleteForm .stockBox {
+  margin: 60px 0;
+  border-top: none;
+}
+.errComent {
+  font-size: 2rem;
+  text-align: center;
+  color: #ff5100;
+}
+.topNav li {
+  margin-right: 20px;
+  border: solid 1px #604609;
+  padding: 0 3px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.topNav li:nth-child(6) {
+  margin-right: 20px;
+}
+#stockList tr {
+  display: block;
+}
+/*---------- ログイン画面 ----------*/
+.ones__div input {
+  width: 400px;
+  line-height: 40px;
+  font-size: 1.8rem;
+}
+#logout {
+  margin-top: -30px;
+  display: flex;
+  justify-content: end;
+}
+#logout a {
+  width: 120px;
+  display: block;
+  color: #604609;
+  line-height: 30px;
+  text-align: center;
+  border: solid 1px #604609;
+  border-radius: 6px;
+}
